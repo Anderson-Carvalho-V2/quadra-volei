@@ -1,6 +1,6 @@
 
 export default {
-  basePath: 'C:/Program Files/Git/quadra-volei',
+  basePath: '/quadra-volei',
   supportedLocales: {
   "en-US": ""
 },

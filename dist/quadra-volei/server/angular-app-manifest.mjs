@@ -1,19 +1,19 @@
 
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
-  inlineCriticalCss: true,
-  baseHref: 'C:/Program Files/Git/quadra-volei/',
+  inlineCriticalCss: false,
+  baseHref: '/quadra-volei/',
   locale: undefined,
   routes: [
   {
     "renderMode": 2,
-    "route": "/Program%20Files/Git/quadra-volei"
+    "route": "/quadra-volei"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 528, hash: '54615a85d09d3b19af73b39464c29846283856fce0f720fac2588f15c2370502', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1041, hash: '7398de3760df7b13a54ff6775b0256658d8c85fff48aaf0a5b4c19561decd12d', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'styles-5INURTSO.css': {size: 0, hash: 'menYUTfbRu8', text: () => import('./assets-chunks/styles-5INURTSO_css.mjs').then(m => m.default)}
+    'index.csr.html': {size: 454, hash: '337b2eb12a9871de3161adce8f46755a1b63d708532604482c2559baa31e8e12', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 994, hash: '5261b1e4c58940053226560a60fb738c2031fa2f49926babadddd200c9ce7040', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.html': {size: 21702, hash: 'a60e12d2ff81581a9a033e00c4ef16741ac8732f26929a75deb5f7bb3fbe45ed', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)}
   },
 };
